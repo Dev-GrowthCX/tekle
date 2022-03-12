@@ -47,7 +47,11 @@ a:hover {
 .primaryButton:hover {
   color: white;
 }
-
+@media (max-width: 992px) {
+  .primaryButton {
+    margin: 0.5em;
+  }
+}
 
 
 
@@ -68,23 +72,26 @@ a:hover {
 
 @media (max-width: 992px) {
   #Section-one .container {
-    padding-top: 4em;
-    padding-left: 2em;
+    padding-top: 10em;
   }
   #Section-one-content {
     padding: 2em;
     text-align: center;
   }
-}
-.Section-one-content a {
-  margin: 0;
-  font-family: "lato";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 120%;
-  letter-spacing: -0.04em;
-  color: #FFFFFF;
+  .card {
+    width: auto;
+  }
+  #Section-one h3 {
+    font-size: 42px !important;
+  }
+  #Section-one h2 {
+    width: 80% ;
+    margin-top: 1em !important;
+    font-size: 18px !important;
+  }
+  #Section-one .line hr {
+    width: 60% !important;
+  }
 }
 #Section-one h3 {
   font-family: 'lato';
@@ -114,7 +121,7 @@ a:hover {
   margin-inline: auto;  
 }
 .card {
-  width: 29%;
+  width: auto;
   margin-top: 12% !important;
   margin: 1em;
   background: #FFFFFF;
@@ -140,6 +147,7 @@ a:hover {
 }
 .card .heading {
   display: flex;
+  margin-right: 4em;
   padding-inline: 12%;
 }
 .card h1 {
@@ -185,4 +193,9 @@ a:hover {
   color: #242552;
   margin-inline: 1em;
   margin-bottom: 1.5em;
+}
+@media (max-width: 992px) {
+  .footer {
+    padding-top: 60%;
+  }
 }
