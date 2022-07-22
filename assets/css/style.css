@@ -29,15 +29,11 @@ a:hover {
 .primaryButton {
   background: linear-gradient(45deg, #a55bb4 4.62%, #704eac 80.71%);
   box-shadow: 4px 4px 11px #f3ddfb;
-  color: #fff;
   border-radius: 5px;
   padding: 12px 24px;
   font-size: 18px;
   font-weight: 500;
   transition: 0.1s;
-}
-.primaryButton:hover {
-  color: white;
 }
 @media (max-width: 992px) {
   .primaryButton {
