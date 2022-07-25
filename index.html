@@ -34,6 +34,13 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- Hubspot form script -->
+    <script
+      charset="utf-8"
+      type="text/javascript"
+      src="//js.hsforms.net/forms/v2.js"
+    ></script>
   </head>
 
   <body>
@@ -114,7 +121,7 @@
     <!-- End Footer -->
 
     <!-- Notify Modal -->
-    <!-- <div
+    <div
       class="modal fade"
       id="notifyModal"
       tabindex="-1"
@@ -132,7 +139,15 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">...</div>
+          <div class="modal-body">
+            <script>
+              hbspt.forms.create({
+                region: "na1",
+                portalId: "8189631",
+                formId: "f451ca05-6fe9-4e00-9a8f-051757913786",
+              });
+            </script>
+          </div>
           <div class="modal-footer">
             <button
               type="button"
@@ -145,7 +160,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- Notify Modal -->
 
     <!-- Scripts -->
